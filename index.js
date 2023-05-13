@@ -1,3 +1,4 @@
+const fs = require('fs')
 const inquirer = require('inquirer')
 const {Circle, Square, Triangle} = require('./utils/shapes.js')
 
@@ -40,3 +41,26 @@ const questions = [
         choices: ['Circle', 'Square', 'Triangle'],
     },
 ]
+
+// prompt and then write file
+function promptUser() {
+inquirer
+    .prompt(questions)
+    .then((data) => {
+
+        if (data.text.length > 3) {
+            console.log('Please enter a text value no greater than 3 characters')
+            promptUser()
+        } else {
+        const writeFile = generateSVG(data)
+        fs.writeFile(`${data.text}.svg`, writeFile, (err) =>
+        err ? console.log(err) : console.log('Successfully created file!'))
+    }})
+}
+
+// function to take in data from prompts and create svg file
+function generateSVG(data) {
+    let img_text = 
+}
+
+promptUser()
