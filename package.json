@@ -4,26 +4,23 @@
     "description": "",
     "main": "index.js",
     "directories": {
-      "utils": "utils"
-    },
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "utils": "utils"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/nreece6/oop-svg-logo-maker"
+        "type": "git",
+        "url": "git+https://github.com/nreece6/oop-svg-logo-maker"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/nreece6/oop-svg-logo-maker"
+        "url": "https://github.com/nreece6/oop-svg-logo-maker"
     },
     "homepage": "https://github.com/nreece6/oop-svg-logo-maker#readme",
     "dependencies": {
-      "inquirer": "^8.2.4",
-      "jest": "^29.4.3"
+        "inquirer": "^8.2.4",
+        "jest": "^29.5.0"
     },
-      "scripts": {
+    "scripts": {
         "test": "jest"
-      }
     }
+}
