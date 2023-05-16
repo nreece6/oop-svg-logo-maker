@@ -38,7 +38,7 @@ You must have node.js and the inquirer package installed to run this application
 
 Video example of usage available at:
 
-https://drive.google.com/file/d/1iiAIHerO2EG7GQG2Ky1rXx1Ojwg-kb_Y/view
+https://drive.google.com/file/d/10hmrH5Q_NdfGP_eyasECblqlWXgTFZQD/view
 
 Run the program in the terminal using 
 ```
